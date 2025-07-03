@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="../Javascript/javascript.js"></script>
+    <script>
+        function myFunction(){
+            var x;
+            var idade=prompt("Digite sua idade:");
+            if (idade !=null){
+                x="Idade: " + idade + " anos.";
+                document.getElementById("demo").innerHTML=x;
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>Clique para exibir.</p>
+    <button onclick="myFunction()">Clique aqui</button>
+    <p id="demo"></p>
+    <address><center>
+        Maite López / Estudante / Tecnico em Desenvolvimento de Sistemas
+    </center></address>
+</body>
+</html>
